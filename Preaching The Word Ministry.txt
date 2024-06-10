@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastor Mark Hunt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        .bio, .sermons, .events {
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pastor Mark Hunt</h1>
+        <h2>Living Hope Bible Church, Port Rowan, Ontario</h2>
+        <p>Affiliated with Great Commission Collective</p>
+    </header>
+    <nav>
+        <a href="#bio">Bio</a>
+        <a href="#sermons">Sermons</a>
+        <a href="#events">Events</a>
+    </nav>
+    <div class="container">
+        <section id="bio" class="bio">
+            <h2>About Pastor Mark Hunt</h2>
+            <p>Pastor Mark Hunt has been faithfully serving the Living Hope Bible Church in Port Rowan, Ontario. With a passion for preaching and a heart for the community, he has dedicated his life to spreading the gospel and nurturing spiritual growth within his congregation. Pastor Mark is also an active member of the Great Commission Collective, working alongside other churches to fulfill the mission of making disciples of all nations.</p>
+        </section>
+        <section id="sermons" class="sermons">
+            <h2>Featured Sermons</h2>
+            <ul>
+                <li><strong>The Power of Faith</strong> - A sermon on the importance of faith in our daily lives.</li>
+                <li><strong>Walking with God</strong> - Understanding what it means to walk closely with the Lord.</li>
+                <li><strong>Hope in Christ</strong> - Finding true hope and joy through Jesus Christ.</li>
+            </ul>
+        </section>
+        <section id="events" class="events">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li><strong>Sunday Worship Service</strong> - Every Sunday at 10:00 AM at Living Hope Bible Church.</li>
+                <li><strong>Bible Study Group</strong> - Wednesdays at 7:00 PM, join us for an in-depth study of the scriptures.</li>
+                <li><strong>Community Outreach</strong> - Monthly outreach programs to serve and engage with our local community.</li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Pastor Mark Hunt | Living Hope Bible Church | Great Commission Collective</p>
+    </footer>
+</body>
+</html>
